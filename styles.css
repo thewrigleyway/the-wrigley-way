@@ -20,21 +20,6 @@ body {
     font-size: 14px;
 }
 
- a:link, a:visited {
-    color: darkgreen;
-    text-decoration: underline;
-}
-
-a:hover {
-    color: cornflowerblue;
-} 
-
-.article_separator {
-    line-height: 5px;
-    height: 5px;
-    font-size: 5px;
-}
-
 logo {
     background-color: azure;
     width: 200px;
