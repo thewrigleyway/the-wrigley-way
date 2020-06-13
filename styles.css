@@ -81,4 +81,5 @@ li:hover ul#submenu {
 }
 #submenu a {
 	background-color: white;
+    color: black;
 }
