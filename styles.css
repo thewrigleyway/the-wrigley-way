@@ -20,14 +20,14 @@ body {
     font-size: 14px;
 }
 
-/* a:link, a:visited {
+ a:link, a:visited {
     color: darkgreen;
     text-decoration: underline;
 }
 
 a:hover {
     color: cornflowerblue;
-} */
+} 
 
 .article_separator {
     line-height: 5px;
