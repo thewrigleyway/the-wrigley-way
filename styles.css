@@ -42,7 +42,7 @@ footer, nav, p {
 }
 .dropdownmenu li {
 	float: right;
-	position: absolute;
+	position: relative;
 	width:400px;
 }
 .dropdownmenu a {
