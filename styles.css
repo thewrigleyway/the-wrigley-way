@@ -1,54 +1,36 @@
-.dropdownmenu ul, .dropdownmenu li {
-	margin: 0;
-	padding: 0;
+/* General Styles */
+
+html, body, form, fieldset, img img a {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
-.dropdownmenu ul {
-	background: gray;
-	list-style: none;
-	width: 100%;
+
+body {
+    color: darkblue;
+    background: url(../thewrigleyway/3%20Dunham%20.jpg);
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 120%;
+    font-size: 12px;
 }
-.dropdownmenu li {
-	float: left;
-	position: relative;
-	width:auto;
+
+a:link, a:visited {
+    color: aliceblue;
+    text-decoration: underline;
 }
-.dropdownmenu a {
-	background: #30A6E6;
-	color: #FFFFFF;
-	display: block;
-	font: bold 12px/20px sans-serif;
-	padding: 10px 25px;
-	text-align: center;
-	text-decoration: none;
-	-webkit-transition: all .25s ease;
-	-moz-transition: all .25s ease;
-	-ms-transition: all .25s ease;
-	-o-transition: all .25s ease;
-	transition: all .25s ease;
+
+a:hover {
+    color: cornflowerblue;
 }
-.dropdownmenu li:hover a {
-	background: #000000;
+
+.article_separator {
+    line-height: 5px;
+    height: 5px;
+    font-size: 5px;
 }
-#submenu {
-	left: 0;
-	opacity: 0;
-	position: absolute;
-	top: 35px;
-	visibility: hidden;
-	z-index: 1;
-}
-li:hover ul#submenu {
-	opacity: 1;
-	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
-	visibility: visible;
-}
-#submenu li {
-	float: none;
-	width: 100%;
-}
-#submenu a:hover {
-	background: #DF4B05;
-}
-#submenu a {
-	background-color:#000000;
+
+logo {
+    background-color: azure;
+    width: 200px;
+    height: 100px;
 }
