@@ -1,9 +1,9 @@
 /* General Styles */
 
 html, body, form, fieldset, img img a {
-    margin: 15;
-    padding: 15;
-    border: 15;
+    margin: 0;
+    padding: 0;
+    border: 5;
 }
 
 h1 {
@@ -41,9 +41,9 @@ footer, nav, p {
 	width: 100%;
 }
 .dropdownmenu li {
-	float: left;
-	position: relative;
-	width:auto;
+	float: right;
+	position: absolute;
+	width:400px;
 }
 .dropdownmenu a {
 	background: white;
