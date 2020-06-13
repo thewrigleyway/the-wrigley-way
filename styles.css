@@ -31,6 +31,10 @@ footer, nav, p {
 }
 
 /* Main Menu Styles */
+
+footer .dropdownmenu {
+    text-align: center;
+}
 .dropdownmenu ul, .dropdownmenu li {
 	margin: 0;
 	padding: 0;
