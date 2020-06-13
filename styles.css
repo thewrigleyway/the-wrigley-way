@@ -1,9 +1,9 @@
 /* General Styles */
 
 html, body, form, fieldset, img img a {
-    margin: 0;
-    padding: 0;
-    border: 0;
+    margin: 15;
+    padding: 15;
+    border: 15;
 }
 
 h1 {
