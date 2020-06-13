@@ -26,6 +26,7 @@ logo {
     height: 100px;
 }
 
+/* Main Menu Styles */
 .dropdownmenu ul, .dropdownmenu li {
 	margin: 10;
 	padding: 0;
@@ -56,7 +57,7 @@ logo {
 }
 .dropdownmenu li:hover a {
 	background: #000000;
-    color: black;
+    color: white;
 }
 #submenu {
 	left: 0;
