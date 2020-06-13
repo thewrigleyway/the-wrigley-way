@@ -38,8 +38,8 @@ footer .dropdownmenu {
     padding: 0;
 }
 .dropdownmenu ul, .dropdownmenu li {
-	margin: 0;
-	padding: 0;
+	margin: 5;
+	padding: 5;
 }
 .dropdownmenu ul {
 	background: white;
