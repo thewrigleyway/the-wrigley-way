@@ -48,7 +48,7 @@ footer .dropdownmenu {
 }
 .dropdownmenu li {
 	float: right;
-	position: absolute;
+	position: relative;
 	width: auto;
 }
 .dropdownmenu a {
