@@ -7,7 +7,7 @@ html, body, form, fieldset, img img a {
 }
 
 body {
-    color: darkblue;
+    color: black;
     background: url(../thewrigleyway/3%20Dunham%20.jpg);
     font-family: Helvetica, Arial, sans-serif;
     line-height: 120%;
@@ -15,7 +15,7 @@ body {
 }
 
 a:link, a:visited {
-    color: aliceblue;
+    color: darkgreen;
     text-decoration: underline;
 }
 
