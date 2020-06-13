@@ -34,7 +34,7 @@ footer, nav, p {
 /* Main Menu Styles */
 
 footer .dropdownmenu {
-    float: right;
+    float: left;
     padding: 0;
 }
 .dropdownmenu ul, .dropdownmenu li {
