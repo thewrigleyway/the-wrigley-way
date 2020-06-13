@@ -6,12 +6,18 @@ html, body, form, fieldset, img img a {
     border: 0;
 }
 
+h1 {
+    line-height: 120%;
+    font-size: 24px;
+    font-family: 'Aclonica', Helvetica, serif;
+}
+
 body {
     color: black;
     background: url(../thewrigleyway/3%20Dunham%20.jpg);
     font-family: Helvetica, Arial, sans-serif;
     line-height: 120%;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 a:link, a:visited {
