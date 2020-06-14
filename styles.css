@@ -113,7 +113,7 @@ h5 {
 
 /* lava lamp background */
 
-.dots {
+/*.dots {
 		position: relative;
 		width: 1000px;
 		height: 1000px;
@@ -241,6 +241,94 @@ h5 {
 				-webkit-transform: translate(-25px, -22px);
 		}
 }
+*/
+
+@import "nib"
+
+
+$color1 = rgba(red,.75)
+$color2 = white
+
+body
+  background rgba($color1,.2)
+  overflow hidden
+
+//Stylus error on codepen
+//ask for a rgb or hsl value otherwise
+@css{
+  body{
+    -webkit-filter: contrast(100);
+  }
+}
+
+
+random(a,b)
+	return math(math(0, 'random')*(b - a + 1) + a, 'floor')
+
+
+
+#wrapper
+	position absolute
+	left -50%
+	top -100%
+	width 200%
+	height 300%
+	animation translateY 20s infinite ease-in-out,translateX 10s infinite ease-in-out,colorRoll 20s infinite linear
+	background linear-gradient(rgba($color1,.75),$color1)
+ 
+.center
+	width 200px
+	height @width
+	background rgba($color2,.75)
+	border-radius 50% 
+	position absolute
+	top 50%
+	left 50%
+	transform translate3D(-50%,-50%,0)
+	-webkit-filter blur(15px)
+    
+.ball
+	content ''
+	border-radius 50% 
+	position absolute
+	top 50%
+	left 50%
+	-webkit-filter blur(30px)
+	transform-origin 0 0
+    
+	for ball in 1..9
+		&:nth-of-type({ball})
+			width random(80,120)+0px
+			height @width
+			background $color2
+			animation rotate random(5000,20000)+0ms linear infinite, translateY infinite random(10000,20000)+0ms, translateX infinite random(10000,20000)+0ms
+
+@keyframes rotate
+	0%
+		transform rotate(0) translate3D(80px,-50%,0) scale(1.2)
+	50%
+		transform rotate(180deg) translate3D(0px,-50%,0) scale(1)
+	100%
+		transform rotate(360deg) translate3D(80px,-50%,0) scale(1.2)
+
+tX = 20px	
+tY = 200px	
+@keyframes translateY
+	0%,100%
+		margin-top -1 * tY
+	50%
+		margin-top tY
+@keyframes translateX
+	0%,100%
+		margin-left -1 * tX
+	50%
+		margin-left tX
+@keyframes colorRoll
+	0%,100%
+		opacity 1
+	50%
+		opacity .75
+
 
 
 
