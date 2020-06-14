@@ -27,6 +27,9 @@ logo {
     height: 100px;
 }
 
+p {
+    text-align: center;
+}
 footer {
     text-align: center;
     margin-top: 700px;
@@ -37,7 +40,6 @@ footer {
 footer .dropdownmenu {
     float: left;
     padding: 0;
-    margin-top: 700px;
 }
 .dropdownmenu ul, .dropdownmenu li {
 	margin-top: 5;
