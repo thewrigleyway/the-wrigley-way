@@ -31,13 +31,13 @@ p {
     text-align: center;
 }
 footer {
-    margin-right: -400px;
+    margin-right: 700px;
     margin-top: 650px;
 }
 
 /* Main Menu Styles */
 
-footer, .dropdownmenu {
+footer .dropdownmenu {
     float: left;
     padding: 0;
 }
