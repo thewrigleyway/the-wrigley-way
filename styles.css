@@ -115,8 +115,8 @@ h5 {
 
 .dots {
 		position: relative;
-		width: 600px;
-		height: 600px;
+		width: 1000px;
+		height: 1000px;
 		margin: 0 auto;
 		background: lavender;
         
@@ -136,7 +136,7 @@ h5 {
 		border-radius: 100%;
 		-webkit-user-select: none;
 	
-		background: orange;
+		background: seagreen;
 }
 
 .dot:first-child {
@@ -208,13 +208,13 @@ h5 {
 
 @-webkit-keyframes upDown {
 		0% {
-				-webkit-transform: translateY(-10px);
+				-webkit-transform: translateY(-25px);
 		}
 		50% {
-				-webkit-transform: translateY(10px);
+				-webkit-transform: translateY(25px);
 		}
 		100% {
-				-webkit-transform: translateY(-10px);
+				-webkit-transform: translateY(-25px);
 		}
 }
 
