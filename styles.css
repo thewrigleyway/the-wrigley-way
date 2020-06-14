@@ -107,6 +107,10 @@ li:hover ul#submenu {
 
 /* playlist page CSS */
 
+h5 {
+    text-align: center;
+}
+
 /* lava lamp background */
 
 .lavalamp {
