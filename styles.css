@@ -117,9 +117,9 @@ h5 {
 		position: relative;
 		width: 600px;
 		height: 600px;
-		margin: 0 auto;
+		margin-top: 15;
 		background: white;
-        opacity: 0;
+        
 	
 		-webkit-filter: blur(20px) contrast(30);
 		-moz-filter: blur(20px) contrast(30);
@@ -145,9 +145,9 @@ h5 {
 		top: 0;
 		right: 45%;
 	
-		-webkit-animation: upDown 5s infinite ease-in-out;
-		-moz-animation: upDown 5s infinite ease-in-out;
-		animation: upDown 5s infinite ease-in-out;
+		-webkit-animation: upDown 3s infinite ease-in-out;
+		-moz-animation: upDown 3s infinite ease-in-out;
+		animation: upDown 3s infinite ease-in-out;
 }
 
 .dot:nth-child(2) {
@@ -156,9 +156,9 @@ h5 {
 		left: 52%;
 		top: -8%;
 		
-		-webkit-animation: leftRight 7s infinite ease-in-out;
-		-moz-animation: leftRight 7s infinite ease-in-out;
-		animation: leftRight 7s infinite ease-in-out;
+		-webkit-animation: leftRight 5s infinite ease-in-out;
+		-moz-animation: leftRight 5s infinite ease-in-out;
+		animation: leftRight 5s infinite ease-in-out;
 }
 
 .dot:nth-child(3) {
@@ -167,9 +167,9 @@ h5 {
 		top: 20%;
 		left: 54%;
 	
-		-webkit-animation: upDown 15s infinite ease-in-out;
-		-moz-animation: upDown 15s infinite ease-in-out;
-		animation: upDown 15s infinite ease-in-out;
+		-webkit-animation: upDown 10s infinite ease-in-out;
+		-moz-animation: upDown 10s infinite ease-in-out;
+		animation: upDown 10s infinite ease-in-out;
 }
 
 .dot:nth-child(4) {
@@ -178,9 +178,9 @@ h5 {
 		top: 30%;
 		left: 40%;
 		
-		-webkit-animation: leftRight 5s infinite ease-in-out;
-		-moz-animation: leftRight 5s infinite ease-in-out;
-		animation: leftRight 5s infinite ease-in-out;
+		-webkit-animation: leftRight 3s infinite ease-in-out;
+		-moz-animation: leftRight 3s infinite ease-in-out;
+		animation: leftRight 3s infinite ease-in-out;
 }
 
 .dot:nth-child(5) {
@@ -189,9 +189,9 @@ h5 {
 		top: 57%;
 		left: 58%;
 	
-		-webkit-animation: leftRightUpDown 15s infinite ease-in-out;
-		-moz-animation: leftRightUpDown 15s infinite ease-in-out;
-		animation: leftRightUpDown 15s infinite ease-in-out;
+		-webkit-animation: leftRightUpDown 10s infinite ease-in-out;
+		-moz-animation: leftRightUpDown 10s infinite ease-in-out;
+		animation: leftRightUpDown 10s infinite ease-in-out;
 }
 
 .dot:nth-child(6) {
@@ -200,9 +200,9 @@ h5 {
 		top: 10%;
 		left: 24%;
 	
-		-webkit-animation: leftRightUpDown 15s infinite ease-in-out;
-		-moz-animation: leftRightUpDown 15s infinite ease-in-out;
-		animation: leftRightUpDown 15s infinite ease-in-out;
+		-webkit-animation: leftRightUpDown 12s infinite ease-in-out;
+		-moz-animation: leftRightUpDown 12s infinite ease-in-out;
+		animation: leftRightUpDown 12s infinite ease-in-out;
 }
 
 
