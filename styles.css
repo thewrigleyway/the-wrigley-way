@@ -2,8 +2,8 @@
 
 html, body, form, fieldset, img img a {
     margin: 0;
+    height: 0;
     padding: 0;
-    border: 0;
 }
 
 h1,h2, h3, h4, h5, h6 {
@@ -48,7 +48,7 @@ a {
 }
 
 footer {
-    margin-top: 793px;
+margin-top: 800px;
 }
 
 
@@ -62,7 +62,8 @@ footer .dropdownmenu {
 
 footer .rights {
     float: right;
-    padding-top: 8px;
+    padding-top: 5px;
+    width: 370px;
 }
 .dropdownmenu ul, .dropdownmenu li {
 	margin-top: 0;
@@ -130,6 +131,20 @@ h5 {
     font-size: 14px;
     margin: 0;
     padding: 10;
+}
+.sidebar-image-gallery .gallery-wrapper {
+  display: flex;
+  flex: wrap;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.sidebar-image-gallery .gallery-wrapper .post {
+  flex: 0 0 auto;
+  margin: 2.5;
 }
 
 /* lava lamp background */
