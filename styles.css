@@ -6,9 +6,8 @@ html, body, form, fieldset, img img a {
     border: 0;
 }
 
-h1 {
+h1,h2, h3, h4, h5, h6 {
     line-height: 120%;
-    font-size: 24px;
     font-family: 'Aclonica', Helvetica, serif;
     text-align: center;
 }
@@ -129,7 +128,6 @@ li:hover ul#submenu {
 
 h5 {
     font-size: 14px;
-    text-align: center;
     margin: 0;
     padding: 10;
 }
