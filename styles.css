@@ -10,13 +10,13 @@ html, body, form, fieldset, img img a {
     color: white;
 }
 #playlistbackground .dropdownmenu a {
-    color: white;
+    color: whitesmoke;
 	display: block;
 	font: bold 12px/20px sans-serif;
 	padding: 9px 20px;
 	text-align: center;
     border-radius: 5px;
-    border: solid 2.5px white;
+    border: solid 2.5px black;
 	text-decoration: none;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -27,11 +27,11 @@ html, body, form, fieldset, img img a {
 
 #playlistbackground .dropdownmenu a:hover {
     background-color: black;
-    color: white;
+    color: darkgrey;
 }
 #playlistbackground .dropdownmenu a {
-    color: black;
-    background-color: white;
+    color: whitesmoke;
+    background-color: black;
 }
 
 h1,h2, h3, h4, h5, h6 {
