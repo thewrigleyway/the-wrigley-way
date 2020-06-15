@@ -3,7 +3,7 @@
 html, body, form, fieldset, img img a {
     margin: 0;
     padding: 0;
-    border: 5;
+    border: 0;
 }
 
 h1 {
@@ -21,32 +21,44 @@ body {
     font-size: 14px;
 }
 
-logo {
-    background-color: azure;
-    width: 200px;
-    height: 100px;
+header {
+    position: relative;
+    height: 10.5%;
+    width: 1473.2px;
+}
+
+logo img {
+    width: 100px;
+    height: 80px;
+    padding: 5px;
+    margin-top: -23px;
+    position: absolute;
 }
 
 p {
     text-align: center;
 }
 footer {
-    margin-top: 730px;
+    margin-top: 793px;
 }
 
 /* Main Menu Styles */
 
 footer .dropdownmenu {
     float: left;
-    padding: 0;
+    padding: 5px;
+}
+
+footer .rights {
+    float: right;
+    padding-top: 8px;
 }
 .dropdownmenu ul, .dropdownmenu li {
-	margin-top: 5;
-    margin-right: 10;
-	padding: 0;
+	margin-top: 0;
+    margin-right: 0;
+	padding: 5;
 }
 .dropdownmenu ul {
-	background: white;
 	list-style: none;
 	width: 100%;
 }
@@ -55,13 +67,14 @@ footer .dropdownmenu {
 	position: relative;
 	width: auto;
 }
+
 .dropdownmenu a {
-	background: white;
 	color: black;
 	display: block;
 	font: bold 12px/20px sans-serif;
-	padding: 10px 25px;
+	padding: 9px 20px;
 	text-align: center;
+    border-radius: 5px;
 	text-decoration: none;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -83,7 +96,7 @@ footer .dropdownmenu {
 }
 li:hover ul#submenu {
 	opacity: .5;
-	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	top: 50px;	/* adjust this as per top nav padding top & bottom comes */
 	visibility: visible;
 }
 #submenu li {
@@ -91,11 +104,12 @@ li:hover ul#submenu {
 	width: 100%;
 }
 #submenu a:hover {
-	background-color: darkseagreen;
+    color: dimgrey;
+
 }
 #submenu a {
-	background-color: white;
     color: black;
+    background-color: white;
 }
 
 
@@ -112,175 +126,41 @@ h5 {
 }
 
 /* lava lamp background */
-
-/*.dots {
-		position: relative;
-		width: 1000px;
-		height: 1000px;
-		margin: 0 auto;
-		background: lavender;
-        
-	
-		-webkit-filter: blur(20px) contrast(30);
-		-moz-filter: blur(20px) contrast(30);
-		-o-filter: blur(20px) contrast(30);
-		filter: blur(20px) contrast(30);
-}
-
-.dot {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		margin: auto;
-	
-		border-radius: 100%;
-		-webkit-user-select: none;
-	
-		background: seagreen;
-}
-
-.dot:first-child {
-		width: 140px;
-		height: 140px;
-		top: 0;
-		right: 45%;
-	
-		-webkit-animation: upDown 5s infinite ease-in-out;
-		-moz-animation: upDown 5s infinite ease-in-out;
-		animation: upDown 5s infinite ease-in-out;
-}
-
-.dot:nth-child(2) {
-		width: 70px;
-		height: 70px;
-		left: 52%;
-		top: -8%;
-		
-		-webkit-animation: leftRight 7s infinite ease-in-out;
-		-moz-animation: leftRight 7s infinite ease-in-out;
-		animation: leftRight 7s infinite ease-in-out;
-}
-
-.dot:nth-child(3) {
-		width: 80px;
-		height: 80px;
-		top: 20%;
-		left: 54%;
-	
-		-webkit-animation: upDown 15s infinite ease-in-out;
-		-moz-animation: upDown 15s infinite ease-in-out;
-		animation: upDown 15s infinite ease-in-out;
-}
-
-.dot:nth-child(4) {
-		width: 90px;
-		height: 90px;
-		top: 30%;
-		left: 40%;
-		
-		-webkit-animation: leftRight 5s infinite ease-in-out;
-		-moz-animation: leftRight 5s infinite ease-in-out;
-		animation: leftRight 5s infinite ease-in-out;
-}
-
-.dot:nth-child(5) {
-		width: 70px;
-		height: 70px;
-		top: 57%;
-		left: 58%;
-	
-		-webkit-animation: leftRightUpDown 15s infinite ease-in-out;
-		-moz-animation: leftRightUpDown 15s infinite ease-in-out;
-		animation: leftRightUpDown 15s infinite ease-in-out;
-}
-
-.dot:nth-child(6) {
-		width: 58px;
-		height: 58px;
-		top: 10%;
-		left: 24%;
-	
-		-webkit-animation: leftRightUpDown 15s infinite ease-in-out;
-		-moz-animation: leftRightUpDown 15s infinite ease-in-out;
-		animation: leftRightUpDown 15s infinite ease-in-out;
-}
-
-
-@-webkit-keyframes upDown {
-		0% {
-				-webkit-transform: translateY(-25px);
-		}
-		50% {
-				-webkit-transform: translateY(25px);
-		}
-		100% {
-				-webkit-transform: translateY(-25px);
-		}
-}
-
-@-webkit-keyframes leftRight {
-		0% {
-				-webkit-transform: translateX(-25px);
-		}
-		50% {
-				-webkit-transform: translateX(25px);
-		}
-		100% {
-				-webkit-transform: translateX(-25px);
-		}
-}
-
-@-webkit-keyframes leftRightUpDown {
-		0% {
-				-webkit-transform: translate(-25px, -22px);
-		}
-		50% {
-				-webkit-transform: translate(25px, 22px);
-		}
-		100% {
-				-webkit-transform: translate(-25px, -22px);
-		}
-}*/
-
 .container {
-  position: relative;
-  width: 540px;
-  height: 540px;
-  box-shadow: 0 0 200px #82713b;
-  border: 5px solid #000;
-  border-radius: 50%;
-  margin: 100px auto 0;
+  position: absolute;
+  width: 1483px;
+  height: 800px;
+  margin: 0;
   overflow: hidden;
-  filter: contrast(5);
-  backface-visibility: hidden;
-  background-color: #2e52ce;
+  z-index: 0;
+  background-color: mediumpurple;
 }
+
 .circle,
 .topbottom {
   position: absolute;
-  bottom: 0;
-  display: block;
   border-radius: 50%;
-  background-color: #bc8c0f;
+  background-color: hotpink;
   backface-visibility: hidden;
+  margin-left: -70;
 }
 
 .circle {
-  filter: blur(10px);
+  filter: blur(3px);
   animation: 25s toTop infinite ease-in-out;
 }
 
 .circle:nth-of-type(1) {
   width: 100px;
   height: 100px;
-  left: 60px;
+  right: 60px;
   top: -30px;
   animation-delay: 3s;
   animation: 25s toBottom infinite ease-in-out;
 }
 
 .circle:nth-of-type(2) {
-  left: 100px;
+  right: 100px;
   bottom: -70px;
   width: 180px;
   height: 160px;
@@ -289,7 +169,7 @@ h5 {
 .circle:nth-of-type(3) {
   width: 180px;
   height: 172px;
-  left: 180px;
+  right: 180px;
   top: -100px;
   animation: 25s toBottom infinite ease-in-out;
   animation-delay: 2s;
@@ -297,7 +177,7 @@ h5 {
 
 .circle:nth-of-type(4) {
   top: -120px;
-  left: 410px;
+  left: 110px;
   width: 170px;
   height: 190px;
   animation: 25s toBottom infinite ease-in-out;
@@ -331,28 +211,45 @@ h5 {
 
 .circle:nth-of-type(8) {
   bottom: -100px;
-  left: 310px;
+  left: 485px;
   width: 70px;
   height: 70px;
   animation-delay: 15s;
 }
 
+.circle:nth-of-type(9) {
+  bottom: -100px;
+  right: 510px;
+  width: 140px;
+  height: 140px;
+  animation-delay: 3s;
+}
+.circle:nth-of-type(10) {
+  bottom: -100px;
+  right: 510px;
+  width: 60px;
+  height: 80px;
+  animation-delay: 7s;
+}
+
 .topbottom {
   width: 800px;
   height: 260px;
-  z-index: 100;
+  z-index: 0;
   left: 50%;
-  filter: blur(10px);
+  filter: blur(3px);
 }
 
 .bottom {
   bottom: 0;
-  transform: translate(-50%, 50%);
+  width: 100%;
+  transform: translate(-45%, 50%);
 }
 
 .top {
   top: 0;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  transform: translate( -45%, -50%);
 }
 
 @keyframes toTop {
