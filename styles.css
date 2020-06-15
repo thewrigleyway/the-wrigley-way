@@ -38,9 +38,21 @@ logo img {
 p {
     text-align: center;
 }
+
+a {
+    color: black;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 9px 20px;
+	text-align: center;
+    text-decoration: none;
+}
+
 footer {
     margin-top: 793px;
 }
+
+
 
 /* Main Menu Styles */
 
