@@ -125,6 +125,7 @@ footer .rights {
 
 .dropdownmenu a {
 	color: black;
+    background-color: white;
 	display: block;
 	font: bold 12px/20px sans-serif;
 	padding: 9px 20px;
