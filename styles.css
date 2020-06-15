@@ -116,7 +116,10 @@ li:hover ul#submenu {
 /* playlist page CSS */
 
 h5 {
+    font-size: 14px;
     text-align: center;
+    margin: 0;
+    padding: 10;
 }
 
 /* lava lamp background */
@@ -127,20 +130,21 @@ h5 {
   margin: 0;
   overflow: hidden;
   z-index: 0;
-  background-color: plum;
+  background-image: linear-gradient(to bottom right, hotpink, mediumpurple);
 }
 
 .circle,
 .topbottom {
   position: absolute;
   border-radius: 50%;
-  background-color: cadetblue;
   backface-visibility: hidden;
   margin-left: -70;
+          background-image: linear-gradient(lightgreen, mediumpurple);
 }
 
 .circle {
   animation: 25s toTop infinite ease-in-out;
+    color: pink
 }
 
 .circle:nth-of-type(1) {
@@ -497,4 +501,16 @@ h5 {
   50% {
     transform: translate(-1px, 1px);
   }
+}
+
+.container-audio {
+    width: 97%;
+    height: 27%;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 5px black;
+    background-color: whitesmoke;
+    color: #444;
+    margin-top: -120px;
+    overflow: hidden;
 }
