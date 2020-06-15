@@ -58,8 +58,9 @@ section div {
 }
 
 footer {
-    padding-top: 10px;
+    padding-top: 3px;
     margin-top: 600px;
+    align-items: center;
 }
 .sidebar-image-gallery {
     padding-bottom: 0px;
@@ -71,12 +72,12 @@ footer {
 
 footer .dropdownmenu {
     float: left;
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 footer .rights {
     float: right;
-    padding-top: 5px;
+    padding-top: 15px;
     width: 370px;
 }
 .dropdownmenu ul, .dropdownmenu li {
@@ -166,7 +167,7 @@ h5 {
 .container {
   position: absolute;
   width: 1483px;
-  height: 600px;
+  height: 605px;
   margin-top: -32;
   overflow: hidden;
   z-index: 0;
