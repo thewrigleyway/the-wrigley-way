@@ -5,6 +5,34 @@ html, body, form, fieldset, img img a {
     height: 0;
     padding: 0;
 }
+#playlistbackground {
+    background: black;
+    color: white;
+}
+#playlistbackground .dropdownmenu a {
+    color: white;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 9px 20px;
+	text-align: center;
+    border-radius: 5px;
+    border: solid 2.5px white;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+
+#playlistbackground .dropdownmenu a:hover {
+    background-color: black;
+    color: white;
+}
+#playlistbackground .dropdownmenu a {
+    color: black;
+    background-color: white;
+}
 
 h1,h2, h3, h4, h5, h6 {
     line-height: 120%;
