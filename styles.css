@@ -75,6 +75,7 @@ footer .rights {
 	padding: 9px 20px;
 	text-align: center;
     border-radius: 5px;
+    border: solid 2.5px black;
 	text-decoration: none;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -95,7 +96,7 @@ footer .rights {
 	z-index: 1;
 }
 li:hover ul#submenu {
-	opacity: .5;
+	opacity: 1;
 	top: 50px;	/* adjust this as per top nav padding top & bottom comes */
 	visibility: visible;
 }
@@ -112,13 +113,6 @@ li:hover ul#submenu {
     background-color: white;
 }
 
-
-
-
-
-
-
-
 /* playlist page CSS */
 
 h5 {
@@ -133,20 +127,19 @@ h5 {
   margin: 0;
   overflow: hidden;
   z-index: 0;
-  background-color: mediumpurple;
+  background-color: plum;
 }
 
 .circle,
 .topbottom {
   position: absolute;
   border-radius: 50%;
-  background-color: hotpink;
+  background-color: cadetblue;
   backface-visibility: hidden;
   margin-left: -70;
 }
 
 .circle {
-  filter: blur(3px);
   animation: 25s toTop infinite ease-in-out;
 }
 
@@ -237,7 +230,6 @@ h5 {
   height: 260px;
   z-index: 0;
   left: 50%;
-  filter: blur(3px);
 }
 
 .bottom {
@@ -280,13 +272,229 @@ h5 {
   }
 }
 
-
-
-
-
-
-
 /* media player */
 
+.record-player {
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.base {
+  background-color: lavender;
+  border: 5px solid #000;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  position: absolute;
+}
+.screw__container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.base__screw {
+  position: absolute;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: lightgrey;
+  border: 5px solid #000;
+  border-radius: 100%;
+}
+.base__screw:nth-child(1) {
+  top: 5%;
+  left: 5%;
+}
+.base__screw:nth-child(2) {
+  top: 85%;
+  left: 5%;
+}
+.base__screw:nth-child(3) {
+  left: 90%;
+  top: 5%;
+}
+.base__screw:nth-child(4) {
+  left: 90%;
+  top: 85%;
+}
+.console {
+  width: 22%;
+  height: 30%;
+  position: relative;
+  top: 40%;
+  left: 74%;
+}
+.buttons {
+  float: left;
+  width: 25%;
+  height: 60%;
+}
+.button {
+  width: 100%;
+  height: 20%;
+  margin: 15%;
+  border: 5px solid #000;
+  background-color: white;
+  border-radius: 4px;
+}
+.volume {
+  float: right;
+  border-left: 5px solid #000;
+  height: 100%;
+  width: 20%;
+}
+.volume:before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  width: 12px;
+  border: 5px solid #000;
+  border-radius: 5px;
+}
+.record {
+  position: relative;
+  top: 18%;
+  left: 14%;
+  background-color: black;
+  border: 5px solid black;
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  animation: rotate 18s linear infinite;
+}
+.record__line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-left: white 5px solid;
+  border-right: white 5px solid;
+  border-top: transparent 5px solid;
+  border-bottom: transparent 5px solid;
+  border-radius: 100%;
+}
+.record__line-1 {
+  height: 110px;
+  width: 110px;
+}
+.record__line-2 {
+  height: 80px;
+  width: 80px;
+}
+.record__hole {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+}
+.arm {
+  position: relative;
+  top: -100%;
+  left: 22%;
+  animation: tilt 18s linear infinite;
+  height: 100%;
+  width: 100%;
+  transform: rotate(20deg);
+}
+.arm__top {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 8%;
+  width: 6%;
+  border-radius: 10px;
+  background-color: #000;
+  transform: translate(-50%, -50%);
+  border: 5px solid #000;
+}
+.arm__middle {
+  position: absolute;
+  top: 50%;
+  left: -51%;
+  width: 100%;
+  margin: 0 auto;
+  height: 60%;
+  border-right: 5px solid #000;
+}
+.arm__bottom {
+  position: absolute;
+  top: 98%;
+  left: 46%;
+  height: 6%;
+  width: 4%;
+  border-radius: 6px;
+  border: 5px solid #000;
+  background-color: #ccc;
+  animation: bump 1s linear infinite;
+}
 
-
+@-moz-keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes tilt {
+  90% {
+    transform: rotate(45deg);
+  }
+}
+@-webkit-keyframes tilt {
+  90% {
+    transform: rotate(45deg);
+  }
+}
+@-o-keyframes tilt {
+  90% {
+    transform: rotate(45deg);
+  }
+}
+@keyframes tilt {
+  90% {
+    transform: rotate(45deg);
+  }
+}
+@-moz-keyframes bump {
+  50% {
+    transform: translate(-1px, 1px);
+  }
+}
+@-webkit-keyframes bump {
+  50% {
+    transform: translate(-1px, 1px);
+  }
+}
+@-o-keyframes bump {
+  50% {
+    transform: translate(-1px, 1px);
+  }
+}
+@keyframes bump {
+  50% {
+    transform: translate(-1px, 1px);
+  }
+}
