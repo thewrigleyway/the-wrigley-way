@@ -46,6 +46,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     line-height: 120%;
     font-size: 14px;
+    width: 100%;
 }
 
 header {
@@ -825,5 +826,41 @@ button {
     margin-left: 85px;
         border: solid 2.5px black;
 }
+
+/* blog gallery on life page */
+
+.container-blog {
+	max-width: 1300px;
+    max-height: 200px;
+    margin: 30px 10px 10px 10px;
+    margin-left: 130px;
+	padding: 5px;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+    width: 1250px;
+    text-align: center;
+}
+
+.gallery-item {
+	overflow: hidden;
+    width: 200px;
+    height:200px;
+}
+
+.gallery-image {
+	width: 200px;
+	height: 200px;
+	align-content: center;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
 
 
