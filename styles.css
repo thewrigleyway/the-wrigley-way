@@ -1,13 +1,6 @@
 /* General Styles */
-
-html,
-body,
-form,
-fieldset,
-img img a {
-    margin: 0;
-    height: 0;
-    padding: 0;
+html {
+    width: 1465px;
 }
 
 #playlistbackground {
@@ -64,7 +57,7 @@ body {
 header {
     position: relative;
     height: 10.5%;
-    width: 1473.2px;
+    width: 100%;
 }
 
 logo img {
@@ -108,10 +101,18 @@ footer {
     padding-bottom: 5px;
     padding-top: 3px;
     background-color: black;
+    width: 100%;
+    border-radius: 5px;
+}
+
+nav .dropdownmenu {
+    padding-right: 7px;
 }
 
 
 /* Main Menu Styles */
+
+
 
 footer .dropdownmenu {
     float: left;
@@ -121,7 +122,7 @@ footer .dropdownmenu {
 footer .rights {
     float: right;
     padding-top: 15px;
-    width: 370px;
+    width: 23%;
 }
 
 .dropdownmenu ul,
@@ -205,18 +206,14 @@ h5 {
 
 .sidebar-image-gallery .gallery-wrapper {
     display: flex;
-    flex: wrap;
+    flex: nowrap;
     align-items: center;
     width: 100%;
-    overflow: hidden;
     height: 135px;
-    padding: 0px;
+    padding-left: 10px;
+    border-radius: 15px;
 }
 
-.sidebar-image-gallery .gallery-wrapper .post {
-    flex: 0 0 auto;
-    margin: 2.5;
-}
 .post img {
     border-radius: 5px;
 }
@@ -820,8 +817,8 @@ h5 {
 /* email fillout form css for contact page */
 
 form {
-    margin-left: 600px;
-    margin-top: 80px;
+    margin-left: 590px;
+    margin-top: 40px;
 }
 
 form div {
