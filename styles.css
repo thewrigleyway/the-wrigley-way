@@ -11,8 +11,8 @@ img img a {
 }
 
 #playlistbackground {
-    background: black;
-    color: white;
+    background: whitesmoke;
+    color: black;
 }
 
 #playlistbackground .dropdownmenu a {
@@ -32,13 +32,13 @@ img img a {
 }
 
 #playlistbackground .dropdownmenu a:hover {
-    background-color: black;
+    background-color: whitesmoke;
     color: darkgrey;
 }
 
 #playlistbackground .dropdownmenu a {
-    color: whitesmoke;
-    background-color: black;
+    color: black;
+    background-color: whitesmoke;
 }
 
 h1,
