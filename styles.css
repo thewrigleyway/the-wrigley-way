@@ -719,6 +719,7 @@ h5 {
 /* ANIMATIONS */
 
 .x1 {
+    
     -webkit-animation: animateCloud 35s linear infinite;
     -moz-animation: animateCloud 35s linear infinite;
     animation: animateCloud 35s linear infinite;
@@ -726,6 +727,7 @@ h5 {
     -moz-transform: scale(0.65);
     transform: scale(0.65);
 }
+
 
 .x2 {
     -webkit-animation: animateCloud 20s linear infinite;
