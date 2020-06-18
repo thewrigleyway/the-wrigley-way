@@ -1,15 +1,48 @@
 /* General Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=Mali:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto:wght@500&display=swap');
 html {
     width: 1465px;
     height: 1000px;
+}
+
+.dropdownmenu ul li a {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.sidebar-image-gallery2 {
+    margin-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    background-color: black;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sidebar-image-gallery2 .gallery-wrapper {
+    display: flex;
+    flex: nowrap;
+    align-items: center;
+    width: 100%;
+    height: 135px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.post img {
+    border-radius: 5px;
 }
 
 #playlistbackground {
     background: whitesmoke;
     color: black;
     width: 100%;
+    margin-top: 100px;
     margin: 0;
-    
 }
 
 #playlistbackground .dropdownmenu a {
@@ -44,14 +77,14 @@ h4,
 h5,
 h6 {
     line-height: 120%;
-    font-family: 'Aclonica', Helvetica, serif;
+    font-family: 'Roboto', Helvetica, cursive;
     text-align: center;
+    text-transform: uppercase;
 }
 
 body {
     color: black;
     background: url();
-    font-family: Helvetica, Arial, sans-serif;
     line-height: 120%;
     font-size: 14px;
     width: 100%;
@@ -63,11 +96,46 @@ header {
     width: 100%;
 }
 
+h5 img {
+    height: 100px;
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
 logo img {
     width: 100px;
-    height: 80px;
-    padding: 7px;
-    margin-top: -23px;
+    height: 100px;
+    opacity: .5;
+    padding: 5px;
+    margin-top: -35px;
+    position: relative;
+    border-radius: 10px;
+}
+
+logo a {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin-top: -35px;
+    position: relative;
+    border-radius: 10px;
+}
+
+logo a:hover {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin-top: -35px;
+    position: relative;
+    border-radius: 10px;
+}
+
+logo img:hover {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    padding: 5px;
+    margin-top: -35px;
     position: absolute;
     border-radius: 10px;
 }
@@ -77,8 +145,10 @@ section p {
     margin-top: 100px;
 }
 
-p {
+body p {
     text-align: center;
+    font-family: 'Karla', Arial, sans-serif;
+    font-size: 14px;
 }
 
 a {
@@ -88,6 +158,7 @@ a {
     padding: 9px 20px;
     text-align: center;
     text-decoration: none;
+    font-family: 'Karla', sans-serif;
 }
 
 section div {
@@ -98,6 +169,9 @@ footer {
     padding-top: 3px;
     margin-top: 600px;
     align-items: center;
+    width: 100%;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 .sidebar-image-gallery {
@@ -115,8 +189,6 @@ nav .dropdownmenu {
 
 /* Main Menu Styles */
 
-
-
 footer .dropdownmenu {
     float: left;
     padding-top: 0px;
@@ -125,7 +197,6 @@ footer .dropdownmenu {
 footer .rights {
     float: right;
     padding-top: 15px;
-    width: 23%;
 }
 
 .dropdownmenu ul,
@@ -150,7 +221,6 @@ footer .rights {
     color: black;
     background-color: white;
     display: block;
-    font: bold 12px/20px sans-serif;
     padding: 9px 20px;
     text-align: center;
     border-radius: 5px;
@@ -384,6 +454,7 @@ h5 {
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+    justify-content: center;
 }
 
 .base {
@@ -683,6 +754,11 @@ h5 {
     font-size: 40px;
     padding: 25px;
     text-align: center;
+    z-index: 1;
+}
+
+#background-wrap2 a:hover {
+    color: darkgrey;
 }
 
 
@@ -719,7 +795,6 @@ h5 {
 /* ANIMATIONS */
 
 .x1 {
-    
     -webkit-animation: animateCloud 35s linear infinite;
     -moz-animation: animateCloud 35s linear infinite;
     animation: animateCloud 35s linear infinite;
@@ -727,7 +802,6 @@ h5 {
     -moz-transform: scale(0.65);
     transform: scale(0.65);
 }
-
 
 .x2 {
     -webkit-animation: animateCloud 20s linear infinite;
@@ -820,8 +894,10 @@ h5 {
 /* email fillout form css for contact page */
 
 form {
-    margin-left: 590px;
+    margin-left: 600px;
     margin-top: 40px;
+    font-family: 'Karla', Arial, sans-serif;
+    text-transform: uppercase;
 }
 
 form div {
@@ -833,7 +909,6 @@ form h3 {
     text-align: center;
     font-size: 40px;
     color: cadetblue;
-    font-family: helvetica, verdana, sans-serif;
     letter-spacing: 2px;
     text-shadow: -1px -1px 1px black, 0px 2px 1px rgba(0, 0, 0, 0.5), 2px 2px 2px rgba(0, 0, 0, 0.7), 0px 0px 3px rgba(0, 0, 0, 0.4);
 }
@@ -884,6 +959,8 @@ button {
     margin-top: 70px;
     margin-left: 85px;
     border: solid 2.5px black;
+        font-family: 'Roboto', arial, sans-serif;
+    text-transform: uppercase;
 }
 
 
