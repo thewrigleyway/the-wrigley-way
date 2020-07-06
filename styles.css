@@ -37,6 +37,23 @@ html {
     border-radius: 5px;
 }
 
+.bio-image img {
+    margin-left: 570px;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+.bio-para {
+    width: 50%;
+    margin-left: 360px;
+    
+}
+
+.index-section {
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+
 #playlistbackground {
     background: whitesmoke;
     color: black;
