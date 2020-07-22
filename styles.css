@@ -1010,6 +1010,7 @@ button {
     background-size: 150px, 150px;
     border-radius: 15px;
     border: none;
+    background-image: url(./retroflowerblogsize.png);
 }
 
 .gallery-image:hover {
@@ -1019,5 +1020,5 @@ button {
     border-radius: 15px;
     color: black;
     font-size: 14px;
-    background-image: url(/img/retroflowerblogsize.jpg);
+    background-image: url(./retroflowerblogsize.jpg);
 }
