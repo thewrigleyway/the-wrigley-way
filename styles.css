@@ -1007,7 +1007,6 @@ button {
     width: 150px;
     height: 150px;
     transition: transform 400ms ease-out;
-    background-image: url(/retroflowerblogsize.jpg);
     background-size: 150px, 150px;
     border-radius: 15px;
     border: none;
@@ -1020,5 +1019,5 @@ button {
     border-radius: 15px;
     color: black;
     font-size: 14px;
-    background-image: url(#);
+    background-image: url(/img/retroflowerblogsize.jpg);
 }
