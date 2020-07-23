@@ -315,7 +315,7 @@ h5 {
     position: absolute;
     width: 100%;
     height: 1100px;
-    margin-top: -300px;
+    margin-top: -105px;
     overflow: hidden;
     z-index: -1;
     background-image: linear-gradient(to bottom right, hotpink, mediumpurple);
@@ -332,7 +332,7 @@ h5 {
 
 .circle {
     animation: 25s toTop infinite ease-in-out;
-    color: pink
+    color: pink;
 }
 
 .circle:nth-of-type(1) {
