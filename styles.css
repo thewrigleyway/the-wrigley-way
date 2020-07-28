@@ -927,6 +927,8 @@
         font-family: sans-serif;
         font-size: 14px;
         font-weight: 500;
+                font-weight: bold;
+
     }
     form input {
         width: 300px;
@@ -1015,11 +1017,17 @@
         font-family: 'Roboto', arial, sans-serif;
         text-transform: uppercase;
     }
-    .contact-info {
-        padding: 7px;
-        background-color: white;
-        box-shadow: 10px;
-        width: 60%;
-        height: 20%;
+    form .contact-info {
+        width: 310px;
+        height: 65px;
+        background-color: cadetblue;
+        margin-top: 70px;
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+    .contact-info p {
+        padding: 3px;
+        color: black;
+        margin-top: 5px;
     }
 }
