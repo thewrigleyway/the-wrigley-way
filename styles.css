@@ -265,6 +265,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto:wght@500&display=swap');
 @media screen and (min-width:768px) {
+    .mobile-warn {
+        display: none;
+    }
     html {
         width: 1465px;
         height: 1000px;
