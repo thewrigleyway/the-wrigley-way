@@ -236,7 +236,7 @@
         display: none;
     }
     .record-player {
-       display: none; 
+        display: none;
     }
     .mobile-warn {
         height: 100px;
@@ -250,7 +250,7 @@
         text-decoration: none;
         color: grey;
     }
-    .mobile-warn a:hover{
+    .mobile-warn a:hover {
         color: white;
         background-color: black;
         border-radius: 5px;
@@ -1079,6 +1079,7 @@
     form input {
         width: 300px;
         border: solid 2.5px black;
+        border-radius: 5px;
     }
     form p {
         caption-side: bottom;
@@ -1094,6 +1095,8 @@
         padding: 10px;
         margin-left: -50px;
         width: 400px;
+        border-radius: 5px;
+        
     }
     button {
         width: 150px;
@@ -1107,6 +1110,8 @@
         border: solid 2.5px black;
         font-family: 'Roboto', arial, sans-serif;
         text-transform: uppercase;
+        border-radius: 5px;
+        
     }
     /* blog gallery on life page */
     .container-blog {
@@ -1151,6 +1156,7 @@
         padding: 7px;
         margin-left: 600px;
         margin-top: 100px;
+        border-radius: 5px;
     }
     #careerlinks {
         margin-top: 100px;
