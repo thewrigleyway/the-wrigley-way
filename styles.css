@@ -1182,4 +1182,14 @@
         color: black;
         margin-top: 5px;
     }
+    #foto-gallery {
+        width: 800px;
+        margin-left: 350px;
+        margin-top: -100px;
+    }
+
+    
+    #foto-gallery img {
+        width: 100%;
+    }
 }
