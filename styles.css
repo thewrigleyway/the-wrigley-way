@@ -303,6 +303,7 @@
         width: 315px;
         height: 400px;
         border-radius: 5%;
+        transform: rotate(90deg);
     }
     .bio-para {
         width: 50%;
