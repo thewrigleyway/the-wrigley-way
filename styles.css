@@ -300,8 +300,8 @@
     .bio-image img {
         margin-left: 600px;
         margin-top:-30px;
-        width: 280px;
-        height: 400px;
+        width: 400px;
+        height: 280px;
         border-radius: 5%;
         transform: rotate(90deg);
     }
