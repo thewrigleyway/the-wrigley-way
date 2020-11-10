@@ -1,18 +1,21 @@
 @media screen and (max-width: 767px) {
     logo img {
-        width: 20%;
+        width: 150px;
+        height: 200px;
         margin-top: -460px;
         margin-left: 192px;
         position: absolute;
     }
     logo img a {
-        width: 20%;
+        width: 150px;
+        height: 200px;
         margin-top: -460px;
         margin-left: 192px;
         position: relative;
     }
     logo img a:hover {
-        width: 20%;
+        width: 50%;
+        height: 50%;
         margin-top: -460px;
         margin-left: 192px;
         position: relative;
@@ -372,8 +375,8 @@
         margin-left: 40px;
     }
     logo img {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         opacity: .5;
         padding: 5px;
         margin-top: -35px;
@@ -381,8 +384,8 @@
         border-radius: 10px;
     }
     logo a {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         padding: 5px;
         margin-top: -35px;
         position: relative;
@@ -390,16 +393,16 @@
         opacity: 0;
     }
     logo a:hover {
-        width: 100px;
-        height: 100px;
+        width:200px;
+        height: 200px;
         padding: 5px;
         margin-top: -35px;
         position: relative;
         border-radius: 10px;
     }
     logo img:hover {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         opacity: 1;
         padding: 5px;
         margin-top: -35px;
